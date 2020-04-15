@@ -1,11 +1,11 @@
 # Project Road Map
-- Search for possible code to use
+- Search for possible code to use --> (https://github.com/chintanpanchamia/sociometer/blob/master/Analyzer.py)
 
-- Create repository in KSU-IS team
+- Create repository in KSU-IS team --> (https://github.com/ksu-is/Personality-Test)
 
-- Create README.md file for respository
+- Create README.md file for respository --> (https://github.com/ksu-is/Personality-Test/blob/master/README.md)
 
-- Create projectroadmap.md file for repository
+- Create projectroadmap.md file for repository --> ()
 
 - Figure out how to run chosen reference code
 

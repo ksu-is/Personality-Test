@@ -100,9 +100,9 @@ elif pointer == 3:
 else:
     dominant3 = 'neuroticism'
 
-print 'Detailed Social Comfort Levels of the room at the moment:\n'
-print 'Openness to Experiences: ' + str(openness)
-print 'Conscientiousness: ' + str(conscientiousness)
+print ('Detailed Social Comfort Levels of the room at the moment:\n')
+print ('Openness to Experiences: ' + str(openness))
+print ('Conscientiousness: ' + str(conscientiousness))
 print 'Extraversion: ' + str(extraversion)
 print 'Agreeableness: ' + str(agreeableness)
 print 'Neuroticism: ' + str(neuroticism)

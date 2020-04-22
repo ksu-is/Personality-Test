@@ -213,4 +213,4 @@ else:
         else:
             result = 'Routine'
 
-print 'Summarized Social Comfort Level of the room is: ' + result
+print ('Summarized Social Comfort Level of the room is: ' + result)

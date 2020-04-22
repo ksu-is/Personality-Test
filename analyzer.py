@@ -103,9 +103,9 @@ else:
 print ('Detailed Social Comfort Levels of the room at the moment:\n')
 print ('Openness to Experiences: ' + str(openness))
 print ('Conscientiousness: ' + str(conscientiousness))
-print 'Extraversion: ' + str(extraversion)
-print 'Agreeableness: ' + str(agreeableness)
-print 'Neuroticism: ' + str(neuroticism)
+print ('Extraversion: ' + str(extraversion))
+print ('Agreeableness: ' + str(agreeableness))
+print ('Neuroticism: ' + str(neuroticism))
 
 result = ''
 

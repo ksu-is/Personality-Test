@@ -2,6 +2,7 @@ __author__ = 'chintanpanchamia'
 import csv
 f = open('record.csv','rb')
 
+#initializing variables
 profile_counter = 0
 openness = 0
 conscientiousness = 0
@@ -9,16 +10,16 @@ extraversion = 0
 agreeableness = 0
 neuroticism = 0
 
-
+#loop through the lines of file record.csv
 for i in f:
-    profile_counter = profile_counter + 1
-    array = []
+    profile_counter = profile_counter + 1 #incrementing the counter
+    array = [] #creating a new empty list
     i = i.strip()
     f1 = open(i,'rb')
     csvreader = csv.reader(f1)
     for row in csvreader:
         array.append(float(row[0]))
-    agreeableness = agreeableness + array[0]
+    agreeableness = agreeableness + array[0] 
     openness = openness + array[1]
     conscientiousness = conscientiousness + array[2]
     extraversion = extraversion + array[3]

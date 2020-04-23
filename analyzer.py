@@ -2,6 +2,8 @@ __author__ = 'chintanpanchamia'
 import csv
 f = open('record.csv','rb')
 
+DEBUG_NEEDED = True 
+
 #initializing variables
 profile_counter = 0
 openness = 0
@@ -13,17 +15,21 @@ neuroticism = 0
 #loop through the lines of file record.csv
 for i in f:
     profile_counter = profile_counter + 1 #incrementing the counter
-    array = [] #creating a new empty list
+    my_list = [] #creating a new empty list
     i = i.strip()
     f1 = open(i,'rb')
     csvreader = csv.reader(f1)
     for row in csvreader:
-        array.append(float(row[0]))
-    agreeableness = agreeableness + array[0] 
-    openness = openness + array[1]
-    conscientiousness = conscientiousness + array[2]
-    extraversion = extraversion + array[3]
-    neuroticism = neuroticism + array[4]
+        my_list.append(float(row[0]))
+    agreeableness = agreeableness + my_list[0] 
+    openness = openness + my_list[1]
+    conscientiousness = conscientiousness + my_list[2]
+    extraversion = extraversion + my_list[3]
+    neuroticism = neuroticism + my_list[4]
+    #debugging print statements
+    if DEBUG_NEEDED:
+        print("agreeableness = " + agreeableness + ", openness = " + openness + ", conscientiousness = " + conscientiousness)
+        print("extraversion = " + extraversion + ", neuroticism = " + neuroticism)
 
 i = 0
 compute = [0,0,0,0,0]

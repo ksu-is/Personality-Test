@@ -11,6 +11,8 @@
 
 - Fix Syntax Errors in preliminary code
 
+- Add comments explaining what's going on in the code
+
 - Implement changes to source code that align with project idea (Collaborate with project partner)
 
 - Run final code and fix any bugs or syntax errors

@@ -9,6 +9,8 @@
 
 ✔ Figure out how to run chosen reference code
 
+- Fix Syntax Errors in preliminary code
+
 - Implement changes to source code that align with project idea (Collaborate with project partner)
 
 - Run final code and fix any bugs or syntax errors

@@ -9,16 +9,16 @@
 
 ✔ Figure out how to run chosen reference code
 
-- Fix Syntax Errors in preliminary code
+✔ Fix Syntax Errors in preliminary code
 
-- Add comments explaining what's going on in the code
+✔ Add comments explaining what's going on in the code
 
-- Implement changes to source code that align with project idea (Collaborate with project partner)
+✔ Implement changes to source code that align with project idea (Collaborate with project partner)
 
-- Run final code and fix any bugs or syntax errors
+✔ Run final code and fix any bugs or syntax errors
 
-- Finalize code and run
+✔ Finalize code and run
 
-- Look over and update README.md file to ensure it fits/still fits with project
+✔ Look over and update README.md file to ensure it fits/still fits with project
 
-- Submit final code as project
+✔ Submit final code as project
